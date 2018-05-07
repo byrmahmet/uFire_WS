@@ -14,7 +14,7 @@ An ESP32-compatible demo project to expose uFire data through a WebSocket interf
  * search for the `Wire.begin` statements and replace the line with the I2C pins you are using. `Wire.begin(19, 23, 100000);` will use pin 19 as SDA, and 23 as SCL. Leave the 100000 as is.
  * Change the `const char *ssid` and `const char *password` to your WiFi network.
  * program the ESP32 with the example program
- * goto https://ufire.co/uFire_WS in your browser to connect to the device.
+ * goto the /docs folder and open index.html in your browser. It won't work if you try from the github.com hosted version.
 
 #### Compiling
 This is a [PlatformIO](http://platformio.org/) project. Download and install it, import this repo, and it should download all the required tools for you.
